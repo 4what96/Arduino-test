@@ -54,7 +54,7 @@ void blink(){
 ///////////// printMenu //////////////
 
 void printMenu(){
-  Serial.println("Cummins SCR");
+  Serial.println("PUMP CONTROL");
   for(int i = 0; i < sizeof(menu) / sizeof(menu[0]) ; i++){
     if(i == menuItem)
       Serial.print("(x)");
